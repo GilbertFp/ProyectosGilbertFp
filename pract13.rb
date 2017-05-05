@@ -1,10 +1,10 @@
-class Arreglos
+class Diccionarios
 	def initialize()
 	end
 
 	def inicio()
 		#Diccionarios HASH
-		cursos={'ruby'=>21, 'Pagina web'=>15, 'html5'=>25}
+		cursos={'Ruby'=>21, 'Pagina web'=>15, 'html5'=>25}
 		#Agregar un dato al diccionario
 		#cursos['html5']=25
 		#puts cursos['html5']
@@ -15,7 +15,7 @@ class Arreglos
 		end
 =end
 
-		indices = cursos.keys
+		indices = cursos.keys #o values
 		indices.each {|i| puts i}
 
 	end
@@ -23,5 +23,5 @@ class Arreglos
 
 end
 
-objeto = Arreglos.new()
+objeto = Diccionarios.new()
 objeto.inicio
